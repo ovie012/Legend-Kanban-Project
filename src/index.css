@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 50% 96%;
+    --foreground: 20 30% 15%;
+
+    --card: 35 60% 98%;
+    --card-foreground: 20 30% 15%;
+
+    --popover: 35 60% 98%;
+    --popover-foreground: 20 30% 15%;
+
+    --primary: 25 35% 32%;
+    --primary-foreground: 39 80% 95%;
+
+    --secondary: 30 30% 90%;
+    --secondary-foreground: 20 30% 15%;
+
+    --muted: 30 15% 88%;
+    --muted-foreground: 20 10% 50%;
+
+    --accent: 28 55% 60%;
+    --accent-foreground: 20 30% 15%;
+
+    --destructive: 5 60% 50%;
+    --destructive-foreground: 39 80% 95%;
+
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 25 35% 32%;
+
+    --radius: 1rem;
+
+    --priority-low: 140 25% 50%;
+    --priority-medium: 35 75% 55%;
+    --priority-high: 10 65% 50%;
+
+    --sidebar-background: 30 30% 95%;
+    --sidebar-foreground: 20 30% 15%;
+    --sidebar-primary: 25 35% 32%;
+    --sidebar-primary-foreground: 39 80% 95%;
+    --sidebar-accent: 30 30% 90%;
+    --sidebar-accent-foreground: 20 30% 15%;
+    --sidebar-border: 30 20% 85%;
+    --sidebar-ring: 25 35% 32%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;
+  }
+}
