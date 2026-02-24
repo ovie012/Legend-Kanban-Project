@@ -6,7 +6,7 @@ This project is not a CRUD demo. It models the frontend as a distributed system 
 
 ---
 
-## Live Link :: 
+## Live Link :: https://brew-board.vercel.app/
 
 ## Overview
 
