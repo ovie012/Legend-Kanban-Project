@@ -1,7 +1,7 @@
 # Legend Coffee Board
 
 <div align="center">
-  <img width="250" height="250" alt="Logo for Form Canvas" src="./public/logo.png" />
+  <img width="250" height="250" alt="Logo for brew board" src="./public/logo.png" />
 </div>
 
 Legend Coffee Board is a production-grade real-time collaborative Kanban application built with React and TypeScript. It is designed to demonstrate senior-level frontend engineering principles, including distributed systems thinking, optimistic UI, offline-first architecture, conflict resolution, and role-based access control.
@@ -12,7 +12,7 @@ This project is not a CRUD demo. It models the frontend as a distributed system 
 
 ## Live Link :: https://brew-board.vercel.app/
 
-![Design preview for form canvas ](./public/brew-board-homepage-image.webp)
+![Design preview for brew board](./public/brew-board-homepage-image.webp)
 
 ## Overview
 
